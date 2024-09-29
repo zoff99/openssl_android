@@ -1,0 +1,8 @@
+
+
+export ANDROID_NDK_ROOT=/home/zoff/and/sdk/ndk/25.1.8937393
+PATH=$ANDROID_NDK_ROOT/toolchains/llvm/prebuilt/linux-x86_64/bin:$ANDROID_NDK_ROOT/toolchains/llvm/prebuilt/linux-x86_64/bin/:$PATH
+./Configure android-arm64 -D__ANDROID_API__=21
+make
+
+
